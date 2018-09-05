@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab2"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="468dp"
+        android:layout_height="378dp"
+        app:srcCompat="@drawable/disney"
+        tools:layout_editor_absoluteX="-57dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="HONG KONG DISNELAND"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="302dp"
+        android:layout_height="25dp"
+        android:text="Location:  Lantau Island, Hong Kong, China"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance from UST:1,126 km"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="65dp"
+        android:layout_height="38dp"
+        android:text="BACK"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="68dp"
+        android:layout_height="38dp"
+        android:text="NEXT"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <ScrollView
+        android:layout_width="381dp"
+        android:layout_height="566dp"
+        tools:layout_editor_absoluteX="977dp"
+        tools:layout_editor_absoluteY="148dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
